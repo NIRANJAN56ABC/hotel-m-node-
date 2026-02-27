@@ -16,7 +16,7 @@ app.use("/person",personRoutes)
 const menuRoutes = require('./routes/menuRoutes')
 app.use("/menu",menuRoutes)
 
-
+// comment added for test
 app.listen(3000,()=>{
     console.log("listening on port 3000")
 })
